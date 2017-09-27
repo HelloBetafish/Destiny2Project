@@ -1,5 +1,5 @@
 $(document.body).on("click","#info-btn", function() {
-  var apikey = "6b0538962054452e841ece2b6229c1d1";
+  var apikey = "";
   var queryURL = "http://www.bungie.net/Platform/Destiny2/Manifest/";
 
   // Performing our AJAX GET request
