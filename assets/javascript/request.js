@@ -3,7 +3,7 @@ var request = require("request");
 
 const HOST = 'www.bungie.net/Platfom/Destiny2/'
 
-destinyKey = "6b0538962054452e841ece2b6229c1d1";
+destinyKey = "";
 
 var baseRequest = request.defaults({headers: {'X-API-Key': destinyKey}});
 
